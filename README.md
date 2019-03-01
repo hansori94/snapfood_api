@@ -1,4 +1,4 @@
-# snapfood_api
+# SnapFood
 
 Snap a pic of your food and instantly receive a list of possible recipes!
 
