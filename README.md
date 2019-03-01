@@ -1,7 +1,8 @@
-# SnapFood
+# snapfood_api
+- snapfood_api is a simple wrapper API that uses Google Cloud Vision API and the Food API by Spoonacular. 
+- It provides the backend for the mobile app "SnapFood", which allows users to snap pictures of their ingredients and to instantly receive a list of recipes.
 
-Snap a pic of your food and instantly receive a list of possible recipes!
-
-
-# Description
-Our app allows a user to take a picture of any piece of food. Then the app will return a list of possible ingredients that correspond to that picture. Once the user selects the correct option, a list of a maximum of 10 recipes corresponding to this ingredient appear.
+# Implementation
+- Used Google Cloud Vision API to take perform image recognition on user-inputted images of ingredients.  
+- Used Spponacular's Food API to search for at most recipes that correspond to this ingredient.
+- Used Flask as a framework, and deployed the app on Kubernetes.
